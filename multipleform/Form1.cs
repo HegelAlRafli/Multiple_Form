@@ -20,8 +20,22 @@ namespace multipleform
 
         private void btnclose_Click(object sender, EventArgs e)
         {
-            Close();
-            Application.Exit();
+            DialogResult dialogResult = MessageBox.Show("tutup program ini ?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

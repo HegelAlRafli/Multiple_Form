@@ -30,5 +30,30 @@ namespace multipleform
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblteam_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbltextklub_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbldesk_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
